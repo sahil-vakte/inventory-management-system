@@ -1370,7 +1370,8 @@ msgstr "Tem certeza de que deseja Guardar & Recarregar a pré-visualização?"
 
 #: src/components/editors/TemplateEditor/TemplateEditor.tsx:182
 msgid "To render the preview the current template needs to be replaced on the server with your modifications which may break the label if it is under active use. Do you want to proceed?"
-msgstr "Para ver esta pré-visualização o modelo atual precisa ser substituído no servidor com as suas modificações, o que pode fazer com que \n"
+msgstr ""
+"Para ver esta pré-visualização o modelo atual precisa ser substituído no servidor com as suas modificações, o que pode fazer com que \n"
 "o modelo atual deixe de funcionar. Deseja continuar?"
 
 #: src/components/editors/TemplateEditor/TemplateEditor.tsx:186
@@ -4901,7 +4902,9 @@ msgstr ""
 
 #: src/pages/Auth/Login.tsx:113
 msgid "Don't have an account?"
-msgstr "Não possui conta?\n"
+msgstr ""
+"Não possui conta?\n"
+""
 
 #: src/pages/Auth/Logout.tsx:22
 #~ msgid "Logging out"
@@ -11580,4 +11583,3 @@ msgstr "Ler os documentos"
 #: src/views/MobileAppView.tsx:38
 msgid "Ignore and continue to Desktop view"
 msgstr "Ignorar e continuar para a visualização de Desktop"
-

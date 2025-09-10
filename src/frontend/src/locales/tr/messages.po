@@ -11579,4 +11579,3 @@ msgstr "Belgeleri okuyun"
 #: src/views/MobileAppView.tsx:38
 msgid "Ignore and continue to Desktop view"
 msgstr "Yoksay ve Masaüstü görünümüne devam et"
-

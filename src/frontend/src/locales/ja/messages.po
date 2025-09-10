@@ -11579,4 +11579,3 @@ msgstr "ドキュメントを読む"
 #: src/views/MobileAppView.tsx:38
 msgid "Ignore and continue to Desktop view"
 msgstr "無視してデスクトップビューへ"
-

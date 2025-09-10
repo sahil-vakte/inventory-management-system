@@ -11579,4 +11579,3 @@ msgstr "Lees de documenten"
 #: src/views/MobileAppView.tsx:38
 msgid "Ignore and continue to Desktop view"
 msgstr "Negeer en ga door met desktop weergave"
-

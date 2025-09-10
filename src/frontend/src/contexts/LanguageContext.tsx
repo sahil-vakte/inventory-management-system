@@ -151,7 +151,13 @@ export function LanguageContext({
 }
 
 export async function activateLocale(locale: string) {
-  const { messages } = await import(`../locales/${locale}/messages.ts`);
-  i18n.load(locale, messages);
+  const mod: any = await import(`../locales/${locale}/messages.js`);
+  const catalog =
+    mod.messages ??            // ESM named export { messages }
+    mod.default?.messages ??   // CJS: module.exports = { messages: ... }
+    mod.default ??             // ESM default export of the catalog itself
+    mod;                       // last resort
+  i18n.load(locale, catalog);
   i18n.activate(locale);
 }
+  
